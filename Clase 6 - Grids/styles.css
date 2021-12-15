@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container { 
+    display: grid;
+    grid-template-areas:
+    "item1 item2 item3 item3"
+    "item1 item4 item5 item6" 
+    "item7 item4 item8 item8";
+background-color: #a82b2b;
+grid-template-rows: 100px 100px 100px;
+grid-gap:100px
+}
+
+.item{
+    border: 2px chartreuse solid;
+}
+.item1{
+    grid-area: item1;
+    background-size: cover;
+    background-image: url(https://www.w3schools.com/w3images/fjords.jpg);
+}
+
+.item2{
+    grid-area: item2;
+    background-size: cover;
+    background-image: url(https://www.w3schools.com/w3images/fjords.jpg);
+}
+
+.item3{
+    grid-area: item3;
+    background-size: cover;
+    background-image: url(https://www.w3schools.com/w3images/fjords.jpg);
+}
+
+.item4{
+    grid-area: item4;
+    background-size: cover;
+    background-image: url(https://www.w3schools.com/w3images/fjords.jpg);
+}
+
+.item5{
+    grid-area: item5;
+    background-size: cover;
+    background-image: url(https://www.w3schools.com/w3images/fjords.jpg);
+}
+.item6{
+    grid-area: item6;
+    background-size: cover;
+    background-image: url(https://www.w3schools.com/w3images/fjords.jpg);
+}	
+.item7{
+    grid-area: item7;
+    background-color: purple;
+    background-image: url(https://www.w3schools.com/w3images/fjords.jpg);
+
+}
+.item8{
+    grid-area: item8;
+    background-size: cover;
+    background-image: url(https://www.w3schools.com/w3images/fjords.jpg);
+}
+
+footer{
+    height: 200px;
+    background-color: #a82b2b;
+    margin: 2px solid white;
+}

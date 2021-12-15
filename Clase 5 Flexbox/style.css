@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+    animation: step-end 1s infinite;
+}
+header{
+    height: 20px;
+    background-color: grey;
+    height: 60px;
+    width: auto;
+}
+header p{
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+header span{
+    color: yellow;
+
+}
+
+nav ul{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    align-items: flex-center;
+    height: auto;
+    width: auto;
+    background-color: #f1f1f1;
+}
+
+main{
+    height: 300px;
+    width: 100%;
+    background-image: url(https://www.w3schools.com/css/img_forest.jpg);
+    background-size: cover;
+}
+
+h2{
+    text-align: center;
+    background-color: chocolate;
+}
+
+.item{
+    height: 120px;
+    width: 120px;
+    background-color: aqua;
+    color: blue;
+    text-align: center;
+}
+.sec1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 700px;
+    width: 100%;
+    background-color: chartreuse;
+    margin: 10px solid black;
+}
+
+.item1{
+    order: 0;
+    flex-basis: 60px;
+    /* flex-grow: 2; */
+    flex-shrink: 10;
+}
+
+.item2{
+    order: 0;
+    flex-basis: 120px;
+    /* flex-grow: 6; */
+    flex-shrink: 10;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+}

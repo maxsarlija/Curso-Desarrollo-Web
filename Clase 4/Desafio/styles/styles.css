@@ -1,0 +1,267 @@
+/* Font Import */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+/* Reset A Link */
+a:link{
+    color: grey;
+    text-decoration-line: none;
+}
+body{
+    background-color: white;
+}
+/* Formato de Parrafo Global */
+p{
+    font-size: 1.5em;
+    color: #008080;
+}
+/* Formato de Titulo Global */
+
+h1{
+    font-size: 2.5em;
+    color: #041d1d;
+}
+/* Formato de Titulo Global */
+
+/* Fuentes */
+
+
+
+/* Header */
+header{
+    background-color: rgb(255, 255, 255);
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border: 2px solid grey;
+}
+
+
+.header__logo{
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    height: 100px;
+    width: auto;    
+}
+
+.header__menu{
+display: inline-block;
+float: none;
+}
+
+.header__menu li{
+    display: inline-block;
+    margin-left: 600px;
+    margin-top: 20px;
+    width: 600px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif, Arial;
+    font-size: x-large;
+    font-weight: 800;
+    color:darkmagenta;
+}
+
+.header__menu a{
+    border: 2px solid grey;
+    margin: 1%;
+}
+
+
+.header__div_hero{
+    width: 1920px;
+    height: 600px;
+}
+
+/* End Header */
+
+/* Main */
+main{
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.main .main__section{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+
+.main .main__left_section{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+
+}
+
+.main .main__left_section p {
+    margin-right: 40px;
+}
+
+.main_left_image img{
+    height: 800px;
+    width: auto;
+
+}
+
+.main .main__right_section{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+.main .main_right_image img{
+    height: 800px;
+    width: auto;
+}
+
+.main .main__right_section p{
+    margin-left:40px;
+}
+
+/* End Main */
+
+/* Footer */
+footer{
+background-color: rgb(252, 252, 252);
+}
+
+footer img{
+    width: 25px;
+    height: auto;
+    }
+
+.footer .footer_section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+.lista_footer{
+    list-style: none;
+}
+
+.copyright {
+    font-size: 10pt;
+    width: 200px;
+    height: auto;
+}
+
+/* End Footer */
+
+/* Nosotros */
+.nosotros_header__div_hero img{
+    width: 1920px;
+    height: 600px;
+}
+
+/* End Nosotros */
+
+/* Clientes */
+
+.clientes__title, .clientes__section{
+text-align: center;
+}
+
+.logos_clientes_1, .logos_clientes_2{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    margin: 50px;
+}
+/* End Clientes */
+
+/* Servicios */
+.header__div_hero{
+    width: 1920px;
+    height: 600px;
+    overflow: hidden;
+}
+
+.main .services__section__left h2{ 
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.main .services__section__left p{ 
+    font-size: 1.0em;
+    align-content: center;
+    text-align: center;
+}
+
+.class_services_image{
+    width: auto;
+    height: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 10px;
+    border-style: ridge;
+}
+
+/* Esto no supe como resolverlo correctamente, me falto centrar correctamente la table y los numeros de la lista */
+.services-table{
+    margin: auto;
+    width: 10%;
+    height: auto;
+    text-align: center;
+}
+/* End Servicios */
+
+/* Contacto */
+
+.hero_image_contact{
+    width: 1920px;
+    height: 600px;
+    overflow: hidden;
+}
+
+.main__contacto_section{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+
+.elementos_contacto{
+    margin-top: 50px;
+    margin: auto;
+    width: 1000px;
+    height: auto;
+    display: flex;    
+    justify-content: space-between;
+    align-content: center;
+}
+
+.form_contact{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: auto;
+    height: auto;
+    text-align: center;
+    
+}
+
+/* .map_contact{
+    display: flex;    
+    justify-content: space-between;
+    width: 400px;
+    height: auto;
+}
+.form_contact{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    height: auto;
+} */
+
+
+/* End Contacto */
