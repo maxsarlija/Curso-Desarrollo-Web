@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Clase 8</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+              <ul class="menu">
+                    <img src="img/logo.png" alt="Logo Web">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="clientes.html">Clientes</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            <div class="hero">
+                <h3>Felices Las Vacas</h3>
+            </div>
+        </nav>
+    </header>
+
+        <main>
+            <section class="section-contacto">
+                <h1>Contacto</h1>
+                <h3>Estamos ubicados en el corazon de Buenos Aires</h3>
+            </section>
+            <div class="contenedor--grids-contacto">
+            <section class="sec1-contacto">
+                <iframe class="item-contacto contact-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3287.6271665175655!2d-58.559737784239125!3d-34.51233516017661!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccbfb58cf70e1%3A0x378ad3973f1f0223!2sFelices%20Las%20Vacas!5e0!3m2!1ses-419!2sar!4v1639536661398!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                <!-- contact form -->
+                <form class="item-contacto contact-form" action="#" method="post">
+                    <div class="form-group">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" name="nombre" id="nombre" class="form-control" placeholder="Ingrese su nombre">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" class="form-control" placeholder="Ingrese su email">
+                    </div>
+                    <div class="form-group">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea name="mensaje" id="mensaje" class="form-control" cols="30" rows="10" placeholder="Ingrese su mensaje"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" value="Enviar" class="btn btn-primary">
+                    </div>
+                </form>
+            </section>
+        </div>
+        </main>
+        <footer class="card">
+            <div class="copyright">
+                <h3>Creador con Amor por Maxs | 2022</h3>
+            </div>
+            <div class="redes">
+                <a href="#"><img src="img/facebook.png" alt="Facebook"></a>
+                <a href="#"><img src="img/instagram.png" alt="Instagram"></a>
+            </div>
+        </footer>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+          </script>
+        
+    
+</body>
+</html>
