@@ -20,6 +20,10 @@
     height: 10rem;
 }
 
+a:hover{
+    color: rgb(168, 16, 16);
+}
+
 .hero{
     /* background:linear-gradient(0deg, rgba(255, 254, 254, 0.3), rgba(29, 2, 18, 0.3)), url(https://images.pexels.com/photos/4910769/pexels-photo-4910769.jpeg); */
     background-image: url(https://images.pexels.com/photos/4910769/pexels-photo-4910769.jpeg);

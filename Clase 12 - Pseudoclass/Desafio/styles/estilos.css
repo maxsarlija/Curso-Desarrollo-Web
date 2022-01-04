@@ -15,6 +15,27 @@
     padding: 1rem;
 
 }
+
+/* unvisited link */
+a:link {
+    color: rgba(0,0,0,.55) !important;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgba(0,0,0,.55) !important;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: black !important;
+  }
+  
+  /* selected link */
+  a:active {
+    color: #3f3f3f3f !important;
+  }
+
 .header img{
     width: auto;
     height: 10rem;
@@ -56,3 +77,9 @@ section h3{
     width: auto;
     height: 4rem;
 }
+
+.form-group input:default{
+    box-shadow: blue;
+}
+
+
