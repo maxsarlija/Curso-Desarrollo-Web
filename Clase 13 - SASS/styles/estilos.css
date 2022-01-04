@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+/* Header */
+
+.nav a{
+    text-decoration: none;
+    color: black;
+    justify-content: space-around;
+    padding: 1rem;
+
+}
+
+/* unvisited link */
+a:link {
+    color: rgba(0,0,0,.55) !important;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgba(0,0,0,.55) !important;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: black !important;
+  }
+  
+  /* selected link */
+  a:active {
+    color: #3f3f3f3f !important;
+  }
+
+.header img{
+    width: auto;
+    height: 10rem;
+}
+
+.hero{
+    /* background:linear-gradient(0deg, rgba(255, 254, 254, 0.3), rgba(29, 2, 18, 0.3)), url(https://images.pexels.com/photos/4910769/pexels-photo-4910769.jpeg); */
+    background-image: url(https://images.pexels.com/photos/4910769/pexels-photo-4910769.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    box-shadow:inset 0 0 0 2000px rgba(255, 0, 150, 0.3);
+
+}
+
+.hero h3{
+    font-family: 'Raleway', sans-serif;
+    font-size: 4rem;
+    color: rgb(240, 230, 230);
+    text-align: center;
+    margin-top: 10rem;
+}
+
+/* Main */
+
+.img-main img{
+    width: auto;
+    height: 50rem;
+}
+section h3{
+    margin-top: 7rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+/* Footer */
+
+.redes img{
+    width: auto;
+    height: 4rem;
+}
+
+.form-group input:default{
+    box-shadow: blue;
+}
+
+
