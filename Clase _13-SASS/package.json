@@ -1,0 +1,19 @@
+{
+  "name": "clase13",
+  "version": "1.0.0",
+  "description": "Clase 13, instalando npm y demas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxsarlija/Curso-Desarrollo-Web.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maxsarlija/Curso-Desarrollo-Web/issues"
+  },
+  "homepage": "https://github.com/maxsarlija/Curso-Desarrollo-Web#readme"
+}
